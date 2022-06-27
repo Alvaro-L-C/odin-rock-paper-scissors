@@ -5,8 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <script src="./script.js"></script>
+    <div class="header">
+        <h1 class ="white-shadow-text">Rock Paper Scissors</h1>
+    </div>
+    <div class="selections">
+        <div class="playerOptions">
+            <div id="rock">
+                <img src="./img/rock.png" alt="Rock">
+            </div>
+            <div id="paper">
+                <img src="./img/paper.png" alt="Paper">
+            </div>
+            <div id="scissors">
+                <img src="./img/scissors.png" alt="Scissors">
+            </div>
+        </div>
+        <div class="scoreBoard">
+            <div id="playResult" class ="white-shadow-text">
+                Start Playing!
+            </div>
+            <div id="playMessage" class ="white-shadow-text">
+                Win by scoring 5 first!
+            </div>
+            <div class="scores">
+                <div id="playerScore" class ="white-shadow-text">
+                    Player: 0
+                </div>
+                -
+                <div id="computerScore" class ="white-shadow-text">
+                    Computer: 0
+                </div>
+            </div>
+            <div class="startAgain">
+                <button id="restart" class="hidden">Play Again!</button>
+            </div>
+        </div>
+        <div class="computerOption">
+            <img src="./img/paper.png" alt="paper" id="computerPlay">
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,105 @@
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border: 5px solid transparent;
+}
+
+#paper,
+#rock {
+  margin-bottom: 25px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #3777FF;
+  height: 100vh;
+  justify-content: space-evenly !important;
+  padding: 0;
+  margin: 0;
+}
+
+.header,
+.scoreBoard {
+  display: flex;
+  justify-content: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #48A9A6;
+}
+
+.scoreBoard {
+  flex-direction: column;
+  text-align: center;
+  color: #CCA43B;
+}
+#playResult{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+#playMessage,
+.scores {
+  font-size: 1.5rem ;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.white-shadow-text{
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.scores {
+  display: flex;
+  gap: 30px;
+}
+.selections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.playerOptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.computerOption {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.startAgain {
+  padding-top: 35px;
+}
+
+#restart {
+  background: #48A9A6;
+  color: #fff;
+  padding: 20px 50px;
+  font-size: 1.5rem;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border: 2px solid #fff;
+}
+
+#restart:hover {
+  background: #1d5755;
+  border: 2px solid #48A9A6;
+}
